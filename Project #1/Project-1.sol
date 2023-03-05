@@ -16,7 +16,7 @@ contract Project1 {
       revert("You do not have permission to deposit.");
     }
 
-    if (amount > msg.value / 2 ether) { 
+    if (amount < msg.value / 2 ether) { 
       // revert() Statement.
       revert("Not enough Ether provided.");
     }
