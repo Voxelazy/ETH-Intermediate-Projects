@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.18;
 
-contract Project1 {
+contract Project_1 {
   address public owner;
   
   modifier ownerOnly() {
